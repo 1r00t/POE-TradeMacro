@@ -74,7 +74,7 @@ OpenSearchOnPeoTrade:
 	SuspendPOEItemScript = 0 ; Allow Item info to handle clipboard change event
 return
 
-; Prepare Reqeust Parametes and send Post Request
+; Prepare Request Parametes and send Post Request
 TradeMacroMainFunction(openSearchInBrowser = false)
 {
 	LeagueName := TradeGlobals.Get("LeagueName")
